@@ -15,6 +15,7 @@
 		C00068491D278BB700D9D435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00068471D278BB700D9D435 /* LaunchScreen.storyboard */; };
 		C00068541D278BB700D9D435 /* MessageVerifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00068531D278BB700D9D435 /* MessageVerifyTests.m */; };
 		C000685F1D278BB700D9D435 /* MessageVerifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C000685E1D278BB700D9D435 /* MessageVerifyUITests.m */; };
+		C000686E1D279F5800D9D435 /* NSString+Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = C000686D1D279F5800D9D435 /* NSString+Verify.m */; };
 		C66182AA25EA7E05EA1D3E93 /* libPods-MessageVerify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C58B2095C4DBB88ABF8FDCD9 /* libPods-MessageVerify.a */; };
 		D514D932E6E7BE7542B7534B /* libPods-MessageVerifyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A26760485A777E26CF6B568 /* libPods-MessageVerifyUITests.a */; };
 		EC541157D7C1BE05A2F895B5 /* libPods-MessageVerifyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0E93AADB1F83478CF4C414 /* libPods-MessageVerifyTests.a */; };
@@ -59,6 +60,8 @@
 		C000685A1D278BB700D9D435 /* MessageVerifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageVerifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C000685E1D278BB700D9D435 /* MessageVerifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageVerifyUITests.m; sourceTree = "<group>"; };
 		C00068601D278BB700D9D435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C000686C1D279F5800D9D435 /* NSString+Verify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Verify.h"; sourceTree = "<group>"; };
+		C000686D1D279F5800D9D435 /* NSString+Verify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Verify.m"; sourceTree = "<group>"; };
 		C58B2095C4DBB88ABF8FDCD9 /* libPods-MessageVerify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MessageVerify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F9929BA31CDA11A861496E /* Pods-MessageVerifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageVerifyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageVerifyUITests/Pods-MessageVerifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D99291871D190BFD48E75DA4 /* Pods-MessageVerifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageVerifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageVerifyTests/Pods-MessageVerifyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 		C00068381D278BB700D9D435 /* MessageVerify */ = {
 			isa = PBXGroup;
 			children = (
+				C000686C1D279F5800D9D435 /* NSString+Verify.h */,
+				C000686D1D279F5800D9D435 /* NSString+Verify.m */,
 				C000683C1D278BB700D9D435 /* AppDelegate.h */,
 				C000683D1D278BB700D9D435 /* AppDelegate.m */,
 				C000683F1D278BB700D9D435 /* ViewController.h */,
@@ -441,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C000686E1D279F5800D9D435 /* NSString+Verify.m in Sources */,
 				C00068411D278BB700D9D435 /* ViewController.m in Sources */,
 				C000683E1D278BB700D9D435 /* AppDelegate.m in Sources */,
 				C000683B1D278BB700D9D435 /* main.m in Sources */,
